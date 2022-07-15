@@ -193,8 +193,8 @@ raspberry	#FF007F
 > Lightness is the amount of white or black in a color. A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.
 
 > Here are a few examples of using hsl() with fully-saturated, normal lightness colors:
-````
-Color	HSL
+
+````Color	HSL
 red	hsl(0, 100%, 50%)
 yellow	hsl(60, 100%, 50%)
 green	hsl(120, 100%, 50%)
@@ -206,6 +206,8 @@ magenta	hsl(300, 100%, 50%)
 - [x] Adjust the Tone of a Color
 
 > The `hsl()` option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the 's' and 'l' of `hsl()` stand for saturation and lightness, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.
+
+> All elements have a default `background-color` of transparent. Our `element` currently appears to have a `color` background, because the element behind it has a `background-color` set to `color`. 
 
 
 - [x] Create a Gradual CSS Linear Gradient
