@@ -142,11 +142,10 @@ _25 of 52 challenges completed_
 
 > Some examples of complementary colors with their hex codes are:
 
-```
 red (`#FF0000`) and cyan (`#00FFFF`)
 green (`#00FF00`) and magenta (`#FF00FF`)
 blue (`#0000FF`) and yellow (`#FFFF00`)
-```
+
 > This is different than the outdated RYB color model that many of us were taught in school, which has different primary and complementary colors. Modern color theory uses the additive RGB model (like on a computer screen) and the subtractive CMY(K) model (like in printing).
 
 > There are many color picking tools available online that have an option to find the complement of a color.
