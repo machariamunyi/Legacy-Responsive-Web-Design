@@ -136,6 +136,13 @@ _25 of 52 challenges completed_
 - [x] Change the Position of Overlapping Elements with the z-index Property
 - [x] Center an Element Horizontally Using the margin Property
 - [x] Learn about Complementary Colors
+
+````
+Hue: A pure pigment.
+Tone: A pure pigment with just grey added.
+Tint: A pure pigment with just white added.
+Shade: a pure pigment with just black added.
+```
 > Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 > The color wheel is a useful tool to visualize how colors relate to each other - it's a circle where similar hues are neighbors and different hues are farther apart. When two colors are opposite each other on the wheel, they are called complementary colors. They have the characteristic that if they are combined, they "cancel" each other out and create a gray color. However, when placed side-by-side, these colors appear more vibrant and produce a strong visual contrast.
@@ -197,6 +204,10 @@ magenta	hsl(300, 100%, 50%)
 ```
 
 - [x] Adjust the Tone of a Color
+
+> The `hsl()` option in CSS also makes it easy to adjust the tone of a color. Mixing white with a pure hue creates a tint of that color, and adding black will make a shade. Alternatively, a tone is produced by adding gray or by both tinting and shading. Recall that the 's' and 'l' of `hsl()` stand for saturation and lightness, respectively. The saturation percent changes the amount of gray and the lightness percent determines how much white or black is in the color. This is useful when you have a base hue you like, but need different variations of it.
+
+
 - [x] Create a Gradual CSS Linear Gradient
 - [x] Use a CSS Linear Gradient to Create a Striped Element
 - [x] Create Texture by Adding a Subtle Pattern as a Background Image
