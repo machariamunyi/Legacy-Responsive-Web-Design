@@ -137,7 +137,7 @@ _25 of 52 challenges completed_
 - [x] Center an Element Horizontally Using the margin Property
 - [x] Learn about Complementary Colors
 
-````
+```
 Hue: A pure pigment.
 Tone: A pure pigment with just grey added.
 Tint: A pure pigment with just white added.
