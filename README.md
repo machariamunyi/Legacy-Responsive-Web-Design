@@ -334,6 +334,7 @@ p {
 > You can use CSS @keyframes to change the color of a button in its hover state.
 
 > ere's an example of changing the width of an image on hover:
+
 ```
 <style>
   img {
@@ -350,10 +351,12 @@ p {
     }
   }
 </style>
+```
 
 `<img src="https://cdn.freecodecamp.org/curriculum/applied-visual-design/google-logo.png" alt="Google's Logo" />`
-```
+
 > Note that ms stands for milliseconds, where 1000ms is equal to 1s.
+
 
 - [x] Modify Fill Mode of an Animation
 
@@ -362,6 +365,7 @@ p {
 > This can be done by setting the animation-fill-mode property to forwards. The animation-fill-mode specifies the style applied to an element when the animation has finished. You can set it like so:
 
 `animation-fill-mode: forwards;`
+
 
 - [x] Create Movement Using CSS Animation
 
