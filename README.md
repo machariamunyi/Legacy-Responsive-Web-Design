@@ -223,23 +223,120 @@ magenta	hsl(300, 100%, 50%)
 ```background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));```
 
 - [x] Use a CSS Linear Gradient to Create a Striped Element
+> The repeating-linear-gradient() function is very similar to linear-gradient() with the major difference that it repeats the specified gradient pattern. repeating-linear-gradient() accepts a variety of values, but for simplicity, you'll work with an angle value and color stop values in this challenge.
+
+> The angle value is the direction of the gradient. Color stops are like width values that mark where a transition takes place, and are given with a percentage or a number of pixels.
+
+> In the example demonstrated in the code editor, the gradient starts with the color yellow at 0 pixels which blends into the second color blue at 40 pixels away from the start. Since the next color stop is also at 40 pixels, the gradient immediately changes to the third color green, which itself blends into the fourth color value red as that is 80 pixels away from the beginning of the gradient.
+
+> For this example, it helps to think about the color stops as pairs where every two colors blend together.
+
+`0px [yellow -- blend -- blue] 40px [green -- blend -- red] 80px`
+> If every two color stop values are the same color, the blending isn't noticeable because it's between the same color, followed by a hard transition to the next color, so you end up with stripes.
+
 - [x] Create Texture by Adding a Subtle Pattern as a Background Image
+
+> One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. The key is balance, as you don't want the background to stand out too much, and take away from the foreground. The background property supports the url() function in order to link to an image of the chosen texture or pattern. The link address is wrapped in quotes inside the parentheses.
+
 - [x] Use the CSS Transform scale Property to Change the Size of an Element
+
+> To change the scale of an element, CSS has the transform property, along with its scale() function. The following code example doubles the size of all the paragraph elements on the page:
+```
+p {
+  transform: scale(2);
+}
+```
+
 - [x] Use the CSS Transform scale Property to Scale an Element on Hover
+
+> The transform property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as :hover that specify a certain state of an element, the transform property can easily add interactivity to your elements.
+
+> Here's an example to scale the paragraph elements to 2.1 times their original size when a user hovers over them:
+```
+p:hover {
+  transform: scale(2.1);
+}
+```
+> Note: Applying a transform to a div element will also affect any child elements contained in the div.
+
 - [x] Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
+
+> The next function of the transform property is skewX(), which skews the selected element along its X (horizontal) axis by a given degree.
+
+>The following code skews the paragraph element by -32 degrees along the X-axis.
+````
+p {
+  transform: skewX(-32deg);
+}
+```
+
 - [x] Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
+
+> Given that the skewX() function skews the selected element along the X-axis by a given degree, it is no surprise that the skewY() property skews an element along the Y (vertical) axis.
+
 - [x] Create a Graphic Using CSS
+
+> By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the box-shadow property that sets the shadow of an element, along with the border-radius property that controls the roundness of the element's corners.
+
+> You will create a round, transparent object with a crisp shadow that is slightly offset to the side - the shadow is actually going to be the moon shape you see.
+
+> In order to create a round object, the border-radius property should be set to a value of 50%.
+
+> You may recall from an earlier challenge that the box-shadow property takes values for offset-x, offset-y, blur-radius, spread-radius and a color value in that order. The blur-radius and spread-radius values are optional.
+
 - [x] Create a More Complex Shape Using CSS and HTML
+
+
+
 - [x] Learn How the CSS @keyframes and animation Properties Work
+
+
+
 - [x] Use CSS Animation to Change the Hover State of a Button
+
+
+
 - [x] Modify Fill Mode of an Animation
+
+
+
 - [x] Create Movement Using CSS Animation
+
+
+
 - [x] Create Visual Direction by Fading an Element from Left to Right
-- [ ] Animate Elements Continually Using an Infinite Animation Count
-- [ ] Make a CSS Heartbeat using an Infinite Animation Count
-- [ ] Animate Elements at Variable Rates
-- [ ] Animate Multiple Elements at Variable Rates
-- [ ] Change Animation Timing with Keywords
-- [ ] Learn How Bezier Curves Work
-- [ ] Use a Bezier Curve to Move a Graphic
-- [ ] Make Motion More Natural Using a Bezier Curve
+
+
+
+- [x] Animate Elements Continually Using an Infinite Animation Count
+
+
+
+- [x] Make a CSS Heartbeat using an Infinite Animation Count
+
+
+
+- [x] Animate Elements at Variable Rates
+
+
+
+- [x] Animate Multiple Elements at Variable Rates
+
+
+
+- [x] Change Animation Timing with Keywords
+
+
+
+- [x] Learn How Bezier Curves Work
+
+
+
+- [x] Use a Bezier Curve to Move a Graphic
+
+
+
+- [x] Make Motion More Natural Using a Bezier Curve
+
+
+
