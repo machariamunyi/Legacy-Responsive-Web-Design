@@ -8,6 +8,7 @@ Finally, you'll learn how to make webpages that respond to different screen size
 
 
 ## Basic HTML and HTML5
+
 HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements usually have opening and closing tags that surround and give meaning to content. For example, different elements can describe text as a heading, paragraph, or list item.
 
 In this course, you'll build a cat photo app to learn some of the most common HTML elements — the building blocks of any webpage.
@@ -47,6 +48,7 @@ _28 of 28 challenges completed_
 - [x] Define the Head and Body of an HTML Document
 
 ##  Basic CSS
+
 CSS, or Cascading Style Sheets, tell the browser how to display the text and other content that you write in HTML. With CSS, you can control the color, font, size, spacing, and many other aspects of HTML elements.
 
 Now that you've described the structure of your cat photo app, give it some style with CSS.
@@ -98,3 +100,65 @@ _44 of 44 challenges completed_
 - [x] Inherit CSS Variables
 - [x] Change a variable for a specific area
 - [x] Use a media query to change a variable
+
+## Applied Visual Design
+
+Visual design is a combination of typography, color theory, graphics, animation, page layout, and more to help deliver your unique message.
+
+In this course, you'll learn how to apply these different elements of visual design to your webpages.
+
+
+_25 of 52 challenges completed_
+
+- [x] Create Visual Balance Using the text-align Property
+- [x] Adjust the Width of an Element Using the width Property
+- [x] Adjust the Height of an Element Using the height Property
+- [x] Use the strong Tag to Make Text Bold
+- [x] Use the u Tag to Underline Text
+- [x] Use the em Tag to Italicize Text
+- [x] Use the s Tag to Strikethrough Text
+- [x] Create a Horizontal Line Using the hr Element
+- [x] Adjust the background-color Property of Text
+- [x] Adjust the Size of a Heading Element Versus a Paragraph Element
+- [x] Add a box-shadow to a Card-like Element
+- [x] Decrease the Opacity of an Element
+- [x] Use the text-transform Property to Make Text Uppercase
+- [x] Set the font-size for Multiple Heading Elements
+- [x] Set the font-weight for Multiple Heading Elements
+- [x] Set the font-size of Paragraph Text
+- [x] Set the line-height of Paragraphs
+- [x] Adjust the Hover State of an Anchor Tag
+- [x] Change an Element's Relative Position
+- [x] Move a Relatively Positioned Element with CSS Offsets
+- [x] Lock an Element to its Parent with Absolute Positioning
+- [x] Lock an Element to the Browser Window with Fixed Positioning
+- [x] Push Elements Left or Right with the float Property
+- [x] Change the Position of Overlapping Elements with the z-index Property
+- [ ] Center an Element Horizontally Using the margin Property
+- [ ] Learn about Complementary Colors
+- [ ] Learn about Tertiary Colors
+- [ ] Adjust the Color of Various Elements to Complementary Colors
+- [ ] Adjust the Hue of a Color
+- [ ] Adjust the Tone of a Color
+- [ ] Create a Gradual CSS Linear Gradient
+- [ ] Use a CSS Linear Gradient to Create a Striped Element
+- [ ] Create Texture by Adding a Subtle Pattern as a Background Image
+- [ ] Use the CSS Transform scale Property to Change the Size of an Element
+- [ ] Use the CSS Transform scale Property to Scale an Element on Hover
+- [ ] Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
+- [ ] Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
+- [ ] Create a Graphic Using CSS
+- [ ] Create a More Complex Shape Using CSS and HTML
+- [ ] Learn How the CSS @keyframes and animation Properties Work
+- [ ] Use CSS Animation to Change the Hover State of a Button
+- [ ] Modify Fill Mode of an Animation
+- [ ] Create Movement Using CSS Animation
+- [ ] Create Visual Direction by Fading an Element from Left to Right
+- [ ] Animate Elements Continually Using an Infinite Animation Count
+- [ ] Make a CSS Heartbeat using an Infinite Animation Count
+- [ ] Animate Elements at Variable Rates
+- [ ] Animate Multiple Elements at Variable Rates
+- [ ] Change Animation Timing with Keywords
+- [ ] Learn How Bezier Curves Work
+- [ ] Use a Bezier Curve to Move a Graphic
+- [ ] Make Motion More Natural Using a Bezier Curve
