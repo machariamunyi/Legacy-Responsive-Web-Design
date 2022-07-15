@@ -194,7 +194,8 @@ raspberry	#FF007F
 
 > Here are a few examples of using hsl() with fully-saturated, normal lightness colors:
 
-````Color	HSL
+```
+Color	HSL
 red	hsl(0, 100%, 50%)
 yellow	hsl(60, 100%, 50%)
 green	hsl(120, 100%, 50%)
