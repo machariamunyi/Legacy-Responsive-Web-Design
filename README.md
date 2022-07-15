@@ -264,7 +264,7 @@ p:hover {
 > The next function of the transform property is skewX(), which skews the selected element along its X (horizontal) axis by a given degree.
 
 >The following code skews the paragraph element by -32 degrees along the X-axis.
-````p {
+```p {
   transform: skewX(-32deg);
 }
 ```
