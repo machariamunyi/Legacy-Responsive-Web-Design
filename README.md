@@ -286,15 +286,72 @@ p {
 
 - [x] Create a More Complex Shape Using CSS and HTML
 
-
+> One of the most popular shapes in the world is the heart shape, and in this challenge you'll create one using pure CSS. But first, you need to understand the ::before and ::after pseudo-elements. ::before creates a pseudo-element that is the first child of the selected element; ::after creates a pseudo-element that is the last child of the selected element. In the following example, a ::before pseudo-element is used to add a rectangle to an element with the class heart:
+```
+.heart::before {
+  content: "";
+  background-color: yellow;
+  border-radius: 25%;
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  top: -50px;
+  left: 5px;
+}
+```
+> For the ::before and ::after pseudo-elements to function properly, they must have a defined content property. This property is usually used to add things like a photo or text to the selected element. When the ::before and ::after pseudo-elements are used to make shapes, the content property is still required, but it's set to an empty string. In the above example, the element with the class of heart has a ::before pseudo-element that produces a yellow rectangle with height and width of 50px and 70px, respectively. This rectangle has round corners due to its 25% border-radius and is positioned absolutely at 5px from the left and 50px above the top of the element.
 
 - [x] Learn How the CSS @keyframes and animation Properties Work
+
+To animate an element, you need to know about the animation properties and the @keyframes rule. The animation properties control how the animation should behave and the @keyframes rule controls what happens during that animation. There are eight animation properties in total. This challenge will keep it simple and cover the two most important ones first:
+
+animation-name sets the name of the animation, which is later used by @keyframes to tell CSS which rules go with which animations.
+
+animation-duration sets the length of time for the animation.
+
+@keyframes is how to specify exactly what happens within the animation over the duration. This is done by giving CSS properties for specific "frames" during the animation, with percentages ranging from 0% to 100%. If you compare this to a movie, the CSS properties for 0% is how the element displays in the opening scene. The CSS properties for 100% is how the element appears at the end, right before the credits roll. Then CSS applies the magic to transition the element over the given duration to act out the scene. Here's an example to illustrate the usage of @keyframes and the animation properties:
+
+#anim {
+  animation-name: colorful;
+  animation-duration: 3s;
+}
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+For the element with the anim id, the code snippet above sets the animation-name to colorful and sets the animation-duration to 3 seconds. Then the @keyframes rule links to the animation properties with the name colorful. It sets the color to blue at the beginning of the animation (0%) which will transition to yellow by the end of the animation (100%). You aren't limited to only beginning-end transitions, you can set properties for the element for any percentage between 0% and 100%.
 
 
 
 - [x] Use CSS Animation to Change the Hover State of a Button
 
+You can use CSS @keyframes to change the color of a button in its hover state.
 
+Here's an example of changing the width of an image on hover:
+
+<style>
+  img {
+    width: 30px;
+  }
+  img:hover {
+    animation-name: width;
+    animation-duration: 500ms;
+  }
+
+  @keyframes width {
+    100% {
+      width: 40px;
+    }
+  }
+</style>
+
+<img src="https://cdn.freecodecamp.org/curriculum/applied-visual-design/google-logo.png" alt="Google's Logo" />
+Note that ms stands for milliseconds, where 1000ms is equal to 1s.
 
 - [x] Modify Fill Mode of an Animation
 
