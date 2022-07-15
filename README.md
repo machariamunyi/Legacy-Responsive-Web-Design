@@ -134,8 +134,8 @@ _25 of 52 challenges completed_
 - [x] Lock an Element to the Browser Window with Fixed Positioning
 - [x] Push Elements Left or Right with the float Property
 - [x] Change the Position of Overlapping Elements with the z-index Property
-- [ ] Center an Element Horizontally Using the margin Property
-- [ ] Learn about Complementary Colors
+- [x] Center an Element Horizontally Using the margin Property
+- [x] Learn about Complementary Colors
 > Color theory and its impact on design is a deep topic and only the basics are covered in the following challenges. On a website, color can draw attention to content, evoke emotions, or create visual harmony. Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content.
 
 > The color wheel is a useful tool to visualize how colors relate to each other - it's a circle where similar hues are neighbors and different hues are farther apart. When two colors are opposite each other on the wheel, they are called complementary colors. They have the characteristic that if they are combined, they "cancel" each other out and create a gray color. However, when placed side-by-side, these colors appear more vibrant and produce a strong visual contrast.
@@ -153,24 +153,40 @@ blue (#0000FF) and yellow (#FFFF00)
 
 > Note: Using color can be a powerful way to add visual interest to a page. However, color alone should not be used as the only way to convey important information because users with visual impairments may not understand that content. This issue will be covered in more detail in the Applied Accessibility challenges.
 
-- [ ] Learn about Tertiary Colors
-- [ ] Adjust the Color of Various Elements to Complementary Colors
-- [ ] Adjust the Hue of a Color
-- [ ] Adjust the Tone of a Color
-- [ ] Create a Gradual CSS Linear Gradient
-- [ ] Use a CSS Linear Gradient to Create a Striped Element
-- [ ] Create Texture by Adding a Subtle Pattern as a Background Image
-- [ ] Use the CSS Transform scale Property to Change the Size of an Element
-- [ ] Use the CSS Transform scale Property to Scale an Element on Hover
-- [ ] Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
-- [ ] Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
-- [ ] Create a Graphic Using CSS
-- [ ] Create a More Complex Shape Using CSS and HTML
-- [ ] Learn How the CSS @keyframes and animation Properties Work
-- [ ] Use CSS Animation to Change the Hover State of a Button
-- [ ] Modify Fill Mode of an Animation
-- [ ] Create Movement Using CSS Animation
-- [ ] Create Visual Direction by Fading an Element from Left to Right
+- [x] Learn about Tertiary Colors
+
+> Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B) and yellow (R + G). You saw these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.
+
+> Tertiary colors are the result of combining a primary color with one of its secondary color neighbors. For example, within the RGB color model, red (primary) and yellow (secondary) make orange (tertiary). This adds six more colors to a simple color wheel for a total of twelve.
+
+> There are various methods of selecting different colors that result in a harmonious combination in design. One example that can use tertiary colors is called the split-complementary color scheme. This scheme starts with a base color, then pairs it with the two colors that are adjacent to its complement. The three colors provide strong visual contrast in a design, but are more subtle than using two complementary colors.
+
+> Here are three colors created using the split-complement scheme:
+
+```
+Color	Hex Code
+orange	#FF7F00
+cyan	#00FFFF
+raspberry	#FF007F
+````
+
+- [x] Adjust the Color of Various Elements to Complementary Colors
+- [x] Adjust the Hue of a Color
+- [x] Adjust the Tone of a Color
+- [x] Create a Gradual CSS Linear Gradient
+- [x] Use a CSS Linear Gradient to Create a Striped Element
+- [x] Create Texture by Adding a Subtle Pattern as a Background Image
+- [x] Use the CSS Transform scale Property to Change the Size of an Element
+- [x] Use the CSS Transform scale Property to Scale an Element on Hover
+- [x] Use the CSS Transform Property skewX to Skew an Element Along the X-Axis
+- [x] Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
+- [x] Create a Graphic Using CSS
+- [x] Create a More Complex Shape Using CSS and HTML
+- [x] Learn How the CSS @keyframes and animation Properties Work
+- [x] Use CSS Animation to Change the Hover State of a Button
+- [x] Modify Fill Mode of an Animation
+- [x] Create Movement Using CSS Animation
+- [x] Create Visual Direction by Fading an Element from Left to Right
 - [ ] Animate Elements Continually Using an Infinite Animation Count
 - [ ] Make a CSS Heartbeat using an Infinite Animation Count
 - [ ] Animate Elements at Variable Rates
