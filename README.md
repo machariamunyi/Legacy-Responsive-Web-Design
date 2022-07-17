@@ -369,10 +369,27 @@ p {
 
 - [x] Create Movement Using CSS Animation
 
+> When elements have a specified position, such as fixed or relative, the CSS offset properties right, left, top, and bottom can be used in animation rules to create movement.
 
+> As shown in the example below, you can push the item downwards then upwards by setting the top property of the `50%` keyframe to 50px, but having it set to 0px for the first (0%) and the last (100%) keyframe.
+```
+@keyframes rainbow {
+  0% {
+    background-color: blue;
+    top: 0px;
+  }
+  50% {
+    background-color: green;
+    top: 50px;
+  }
+  100% {
+    background-color: yellow;
+    top: 0px;
+  }
+}
+```
 
 - [x] Create Visual Direction by Fading an Element from Left to Right
-
 
 
 - [x] Animate Elements Continually Using an Infinite Animation Count
