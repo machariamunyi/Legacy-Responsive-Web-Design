@@ -953,7 +953,9 @@ Other options for flex-direction are row-reverse and column-reverse.
 ### - Apply the flex-direction Property to Create Rows in the Tweet Embed
 The header and footer in the tweet embed example have child items that could be arranged as rows using the flex-direction property. This tells CSS to align the children horizontally.
 ### - Use the flex-direction Property to Make a Column
+The last two challenges used the flex-direction property set to row. This property can also create a column by vertically stacking the children of a flex container.
 ### - Apply the flex-direction Property to Create a Column in the Tweet Embed
+The tweet embed header and footer used the flex-direction property earlier with a row value. Similarly, the items inside the .profile-name element would work well stacked as a column.
 ### - Align Elements Using the justify-content Property
 ### - Use the justify-content Property in the Tweet Embed
 ### - Align Elements Using the align-items Property
