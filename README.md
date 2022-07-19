@@ -471,9 +471,9 @@ p {
 - - [x] Add a Text Alternative to Images for Visually Impaired Accessibility
 
 - - [x] Know When Alt Text Should be Left Blank
-- - [x] Use Headings to Show Hierarchical Relationships of Content
-- - [x] Jump Straight to the Content Using the main Element
-- - [x] Wrap Content in the article Element
+-- - [x] Use Headings to Show Hierarchical Relationships of Content
+-- - [x] Jump Straight to the Content Using the main Element
+-- - [x] Wrap Content in the article Element
 - [ ] Make Screen Reader Navigation Easier with the header Landmark
 - [ ] Make Screen Reader Navigation Easier with the nav Landmark
 - [ ] Make Screen Reader Navigation Easier with the footer Landmark
