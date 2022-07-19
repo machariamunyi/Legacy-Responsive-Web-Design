@@ -501,7 +501,11 @@ Note: The section element is also new with HTML5, and has a slightly different s
 
 ### - Make Screen Reader Navigation Easier with the header Landmark
 
+The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.
 
+`header` shares the embedded landmark feature you saw with main, allowing assistive technologies to quickly navigate to that content.
+
+Note: The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
 
 ### - Make Screen Reader Navigation Easier with the nav Landmark
 
