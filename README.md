@@ -391,10 +391,20 @@ p {
 
 - [x] Create Visual Direction by Fading an Element from Left to Right
 
+> For this challenge, you'll change the `opacity` of an animated element so it gradually fades as it reaches the right side of the screen.
+
+> In the displayed animation, the round element with the gradient background moves to the right by the 50% mark of the animation per the `@keyframes` rule.
+
+> Target the element with the id of `ball and add the opacity property set to 0.1 at 50%, so the element fades as it moves to the right.
 
 - [x] Animate Elements Continually Using an Infinite Animation Count
 
+> The previous challenges covered how to use some of the animation properties and the @keyframes rule. Another animation property is the animation-iteration-count, which allows you to control how many times you would like to loop through the animation. Here's an example:
 
+`animation-iteration-count: 3;`
+> In this case the animation will stop after running 3 times, but it's possible to make the animation run continuously by setting that value to infinite.
+
+To keep the ball bouncing on the right on a continuous loop, change the animation-iteration-count property to infinite.
 
 - [x] Make a CSS Heartbeat using an Infinite Animation Count
 
