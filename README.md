@@ -675,29 +675,19 @@ relationship between groups of content, then use a `div`.
 
 ### - Make Screen Reader Navigation Easier with the header Landmark
 
-      The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to
-      wrap introductory information or navigation links for its parent tag and works well around content that's repeated
-      at the top on multiple pages.
+The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to wrap introductory information or navigation links for its parent tag and works well around content that's repeated at the top on multiple pages.`header` shares the embedded landmark feature you saw with main, allowing assistive technologies to quickly navigate to that content.
 
-      `header` shares the embedded landmark feature you saw with main, allowing assistive technologies to quickly
-      navigate to that content.
-
-      Note: The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head`
-      element, which contains the page's title, meta information, etc.
+Note: The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head` element, which contains the page's title, meta information, etc.
 
 ### - Make Screen Reader Navigation Easier with the nav Landmark
 
-      The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This
-      tag is meant to wrap around the main navigation links in your page.
+The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This tag is meant to wrap around the main navigation links in your page.
 
-      If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as
-      well. Using a `footer` (covered in the next challenge) is sufficient.
+If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as well. Using a `footer` (covered in the next challenge) is sufficient.
 
 ### - Make Screen Reader Navigation Easier with the footer Landmark
 
-      Similar to `header` and `nav`, the `footer` element has a built-in landmark feature that allows assistive devices
-      to quickly navigate to it. It's primarily used to contain copyright information or links to related documents that
-      usually sit at the bottom of a page.
+Similar to `header` and `nav`, the `footer` element has a built-in landmark feature that allows assistive devices to quickly navigate to it. It's primarily used to contain copyright information or links to related documents that usually sit at the bottom of a page.
 
 
 ### - Improve Accessibility of Audio Content with the audio Element
