@@ -469,45 +469,24 @@ p {
 
 ## Applied Accessibility
 - [x] Add a Text Alternative to Images for Visually Impaired Accessibility
-Not Passed
 - [ ] Know When Alt Text Should be Left Blank
-Not Passed
 - [ ] Use Headings to Show Hierarchical Relationships of Content
-Not Passed
-Jump Straight to the Content Using the main Element
-Not Passed
-Wrap Content in the article Element
-Not Passed
-Make Screen Reader Navigation Easier with the header Landmark
-Not Passed
-Make Screen Reader Navigation Easier with the nav Landmark
-Not Passed
-Make Screen Reader Navigation Easier with the footer Landmark
-Not Passed
-Improve Accessibility of Audio Content with the audio Element
-Not Passed
-Improve Chart Accessibility with the figure Element
-Not Passed
-Improve Form Field Accessibility with the label Element
-Not Passed
-Wrap Radio Buttons in a fieldset Element for Better Accessibility
-Not Passed
-Add an Accessible Date Picker
-Not Passed
-Standardize Times with the HTML5 datetime Attribute
-Not Passed
-Make Elements Only Visible to a Screen Reader by Using Custom CSS
-Not Passed
-Improve Readability with High Contrast Text
-Not Passed
-Avoid Colorblindness Issues by Using Sufficient Contrast
-Not Passed
-Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
-Not Passed
-Give Links Meaning by Using Descriptive Link Text
-Not Passed
-Make Links Navigable with HTML Access Keys
-Not Passed
-Use tabindex to Add Keyboard Focus to an Element
-Not Passed
-Use tabindex to Specify the Order of Keyboard Focus for Several Elements
+- [ ] Jump Straight to the Content Using the main Element
+- [ ] Wrap Content in the article Element
+- [ ] Make Screen Reader Navigation Easier with the header Landmark
+- [ ] Make Screen Reader Navigation Easier with the nav Landmark
+- [ ] Make Screen Reader Navigation Easier with the footer Landmark
+- [ ] Improve Accessibility of Audio Content with the audio Element
+- [ ] Improve Chart Accessibility with the figure Element
+- [ ] Improve Form Field Accessibility with the label Element
+- [ ] Wrap Radio Buttons in a fieldset Element for Better Accessibility
+- [ ] Add an Accessible Date Picker
+- [ ] Standardize Times with the HTML5 datetime Attribute
+- [ ] Make Elements Only Visible to a Screen Reader by Using Custom CSS
+- [ ] Improve Readability with High Contrast Text
+- [ ] Avoid Colorblindness Issues by Using Sufficient Contrast
+- [ ] Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
+- [ ] Give Links Meaning by Using Descriptive Link Text
+- [ ] Make Links Navigable with HTML Access Keys
+- [ ] Use tabindex to Add Keyboard Focus to an Element
+- [ ] Use tabindex to Specify the Order of Keyboard Focus for Several Elements
