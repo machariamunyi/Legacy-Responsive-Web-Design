@@ -442,24 +442,95 @@ p {
 
 ## Applied Accessibility
 ### - Add a Text Alternative to Images for Visually Impaired Accessibility
+
+You've likely seen an alt attribute on an img tag in other challenges. alt text describes the image's content and provides a text-alternative for it. An alt attribute helps in cases where the image fails to load or can't be seen by a user. Search engines also use it to understand what an image contains to include it in search results. Here's an example:
+
+`<img src="importantLogo.jpeg" alt="Company logo">`
+
+People with visual impairments rely on screen readers to convert web content to an audio interface. They won't get information if it's only presented visually. For images, screen readers can access the alt attribute and read its contents to deliver key information.
+
+Good alt text provides the reader a brief description of the image. You should always include an alt attribute on your image. Per HTML5 specification, this is now considered mandatory.
+
 ### - Know When Alt Text Should be Left Blank
+
+
+
 ### - Use Headings to Show Hierarchical Relationships of Content
+
+
+
 ### - Jump Straight to the Content Using the main Element
+
+
+
 ### - Wrap Content in the article Element
+
+
+
 ### - Make Screen Reader Navigation Easier with the header Landmark
+
+
+
 ### - Make Screen Reader Navigation Easier with the nav Landmark
+
+
+
 ### - Make Screen Reader Navigation Easier with the footer Landmark
+
+
+
 ### - Improve Accessibility of Audio Content with the audio Element
+
+
+
 ### - Improve Chart Accessibility with the figure Element
+
+
+
 ### - Improve Form Field Accessibility with the label Element
+
+
+
 ### - Wrap Radio Buttons in a fieldset Element for Better Accessibility
+
+
+
 ### - Add an Accessible Date Picker
+
+
+
 ### - Standardize Times with the HTML5 datetime Attribute
+
+
+
 ### - Make Elements Only Visible to a Screen Reader by Using Custom CSS
+
+
+
 ### - Improve Readability with High Contrast Text
+
+
+
 ### - Avoid Colorblindness Issues by Using Sufficient Contrast
+
+
+
 ### - Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
+
+
+
 ### - Give Links Meaning by Using Descriptive Link Text
+
+
+
 ### - Make Links Navigable with HTML Access Keys
+
+
+
 ### - Use tabindex to Add Keyboard Focus to an Element
+
+
+
 ### - Use tabindex to Specify the Order of Keyboard Focus for Several Elements
+
+
