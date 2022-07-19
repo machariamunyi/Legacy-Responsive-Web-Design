@@ -499,8 +499,6 @@ Note: The section element is also new with HTML5, and has a slightly different s
 
 `<div> `- groups content `<section> `- groups related content `<article>` - groups independent, self-contained content
 
-
-
 ### - Make Screen Reader Navigation Easier with the header Landmark
 
 
