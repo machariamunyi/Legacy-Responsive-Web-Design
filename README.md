@@ -673,7 +673,7 @@ relationship between groups of content, then use a `div`.
 
 `<div> `- groups content `<section> `- groups related content `<article>` - groups independent, self-contained content
 
-      ### - Make Screen Reader Navigation Easier with the header Landmark
+### - Make Screen Reader Navigation Easier with the header Landmark
 
       The next HTML5 element that adds semantic meaning and improves accessibility is the `header` tag. It's used to
       wrap introductory information or navigation links for its parent tag and works well around content that's repeated
@@ -685,7 +685,7 @@ relationship between groups of content, then use a `div`.
       Note: The `header` is meant for use in the `body` tag of your HTML document. It is different than the `head`
       element, which contains the page's title, meta information, etc.
 
-      ### - Make Screen Reader Navigation Easier with the nav Landmark
+### - Make Screen Reader Navigation Easier with the nav Landmark
 
       The `nav` element is another HTML5 item with the embedded landmark feature for easy screen reader navigation. This
       tag is meant to wrap around the main navigation links in your page.
@@ -693,63 +693,63 @@ relationship between groups of content, then use a `div`.
       If there are repeated site links at the bottom of the page, it isn't necessary to markup those with a `nav` tag as
       well. Using a `footer` (covered in the next challenge) is sufficient.
 
-      ### - Make Screen Reader Navigation Easier with the footer Landmark
+### - Make Screen Reader Navigation Easier with the footer Landmark
 
       Similar to `header` and `nav`, the `footer` element has a built-in landmark feature that allows assistive devices
       to quickly navigate to it. It's primarily used to contain copyright information or links to related documents that
       usually sit at the bottom of a page.
 
 
-      ### - Improve Accessibility of Audio Content with the audio Element
+### - Improve Accessibility of Audio Content with the audio Element
 
 
 
-      ### - Improve Chart Accessibility with the figure Element
+### - Improve Chart Accessibility with the figure Element
 
 
 
-      ### - Improve Form Field Accessibility with the label Element
+### - Improve Form Field Accessibility with the label Element
 
 
 
-      ### - Wrap Radio Buttons in a fieldset Element for Better Accessibility
+### - Wrap Radio Buttons in a fieldset Element for Better Accessibility
 
 
 
-      ### - Add an Accessible Date Picker
+### - Add an Accessible Date Picker
 
 
 
-      ### - Standardize Times with the HTML5 datetime Attribute
+### - Standardize Times with the HTML5 datetime Attribute
 
 
 
-      ### - Make Elements Only Visible to a Screen Reader by Using Custom CSS
+### - Make Elements Only Visible to a Screen Reader by Using Custom CSS
 
 
 
-      ### - Improve Readability with High Contrast Text
+### - Improve Readability with High Contrast Text
 
 
 
-      ### - Avoid Colorblindness Issues by Using Sufficient Contrast
+### - Avoid Colorblindness Issues by Using Sufficient Contrast
 
 
 
-      ### - Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
+### - Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
 
 
 
-      ### - Give Links Meaning by Using Descriptive Link Text
+### - Give Links Meaning by Using Descriptive Link Text
 
 
 
-      ### - Make Links Navigable with HTML Access Keys
+### - Make Links Navigable with HTML Access Keys
 
 
 
-      ### - Use tabindex to Add Keyboard Focus to an Element
+### - Use tabindex to Add Keyboard Focus to an Element
 
 
 
-      ### - Use tabindex to Specify the Order of Keyboard Focus for Several Elements
+### - Use tabindex to Specify the Order of Keyboard Focus for Several Elements
