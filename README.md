@@ -936,6 +936,27 @@ Here is an example that sets a body tag to 30% of the viewport's width.
 Flexbox is a powerful, well-supported layout method that was introduced with the latest version of CSS, CSS3. With flexbox, it's easy to center elements on the page and create dynamic user interfaces that shrink and expand automatically.
 
 In this course, you'll learn the fundamentals of flexbox and dynamic layouts by building a Twitter card.
+#### - CSS that can be applied to the container
+```
+display: flexbox | inline-flex;
+flex-direction: row | row-reverse | column | column-reverse;
+flex-wrap: nowrap | wrap | wrap-reverse;
+flex-flow: <‘flex-direction’> || <‘flex-wrap’>
+justify-content: flex-start | flex-end | center | space-between | space-around;
+align-items: flex-start | flex-end | center | baseline | stretch;
+align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+```
+#### - CSS that can be applied to items/elements in the container
+
+```
+order: <integer>;
+flex-grow: <number>; /* default 0 */
+flex-shrink: <number>; /* default 1 */
+flex-basis: <length> | auto; /* default auto */
+flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+align-self: auto | flex-start | flex-end | center | baseline | stretch;
+```
+
 _17 of 17 challenges completed_
 
 ### - Use display: flex to Position Two Boxes
